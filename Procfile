@@ -1,0 +1,1 @@
+worker: entryfile.py
