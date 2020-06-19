@@ -1,1 +1,1 @@
-worker: entryfile.py
+worker: python entryfile.py
