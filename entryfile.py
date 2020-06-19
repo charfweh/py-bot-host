@@ -1,7 +1,7 @@
 import os
 import random
 import discord
-import urfile
+import os
 client = discord.Client()
 care = 407170811787608064
 @client.event
@@ -25,4 +25,4 @@ async def on_message(message):
         await message.channel.send(res)
     if(message.content.startswith("hi")):
         await message.channel.send("Yep ive started")
-client.run(urfile.bot_token)
+client.run(os.environ[bot_token])
