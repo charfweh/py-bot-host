@@ -25,4 +25,4 @@ async def on_message(message):
         await message.channel.send(res)
     if(message.content.startswith("hi")):
         await message.channel.send("Yep ive started")
-client.run(os.environ[bot_token])
+client.run(os.environ["bot_token"])
